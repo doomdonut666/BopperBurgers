@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'Century-Gothic';
+    src: url('fonts/Century_Gothic/centurygothic.ttf');
+}
+
+@font-face {
+    font-family: 'Florida-Vibes';
+    src: url('fonts/Florida_Vibes/Florida_Vibes.otf');
+}
+
+body {
+    background-color: var(--main-bg-color);
+    color: var(--main-color);
+}
+
+:root {
+    --main-bg-color: #171717;
+    --main-color: #32a852;
+}
+
+.logo {
+    position: absolute;
+    font-family: 'Century-Gothic';
+    font-size: 30px;
+    font-weight: bold;
+
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+/* Navigation */
+.menu {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 33px;
+
+    margin-right: 5%;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10%;
+    padding-top: 2%;
+}
+
+.menu > a {
+    outline: none;
+    text-decoration: none;
+}
+
+.menu > a:link, a:visited {
+    color: #32a852;    
+}
+
+.menu > a:active {
+    color: red;
+}
+
+main {
+    font-family: 'Century-Gothic';
+}
+
+/* Block with burger picture and make order system */
+.about-menu {
+    position: absolute;
+    border: solid darkorange 1px;
+    border-radius: 100px;
+    
+    height: 1000px;
+    width: 100%;
+
+    margin-top: 3%;
+}
+
+/* Aside in about-menu */
+.make-order {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    margin-right: 10%;
+    margin-top: -40%;
+}
+
+.make-order > p {
+    display: flex;
+    font-size: 30px;
+    color: darkorange;
+}
+
+.burger {
+    display: inline;
+    margin: 8% 0% 0% 3%;
+}
+
+.order-input {
+    border-radius: 30px;
+}
+
+#order-email {
+    margin-right: 28.4%;
+    margin-top: 1%;
+}
