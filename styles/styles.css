@@ -16,6 +16,8 @@ body {
 :root {
     --main-bg-color: #171717;
     --main-color: #32a852;
+    --light-button-color: #994c23;
+    --button-bg-color: #2e2c2c;
 }
 
 .logo {
@@ -90,11 +92,36 @@ main {
     margin: 8% 0% 0% 3%;
 }
 
-.order-input {
+.order-buttons {
     border-radius: 30px;
+    border: solid darkorange 5px;
+    font-size: 30px;
+    color: darkorange;
+    background-color: var(--button-bg-color);
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.3s;
+    opacity: 1;
 }
 
-#order-email {
-    margin-right: 28.4%;
+#order-button {
+    margin-right: 18.5%;
     margin-top: 1%;
+    height: 100px;
+    width: 300px;
+
 }
+.order-buttons:hover {
+    /* background-color: black; */
+    background-color: darkorange;
+    color: black;
+    font-weight: 400;
+}
+
+#special-offers-button {
+    position: relative;
+    margin-top: -5.76%;
+    height: 100px;
+    width: 300px;
+}
+
