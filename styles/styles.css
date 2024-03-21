@@ -92,7 +92,7 @@ main {
     margin: 8% 0% 0% 3%;
 }
 
-.order-buttons {
+.main-buttons {
     border-radius: 30px;
     border: solid darkorange 5px;
     font-size: 30px;
@@ -111,7 +111,7 @@ main {
     width: 300px;
 
 }
-.order-buttons:hover {
+.main-buttons:hover {
     /* background-color: black; */
     background-color: darkorange;
     color: black;
@@ -125,3 +125,52 @@ main {
     width: 300px;
 }
 
+.email-type-input {
+    font-family: 'Century_Gothic';
+    font-size: 22px;
+    border-radius: 30px;
+}
+
+#special-offers-email {
+    position: relative;
+    text-align: center;
+    margin-right: 22%;
+    height: 80px;
+    width: 350px;
+    border: solid darkorange 5px;
+    outline: none;
+}
+
+#subscribe-button {
+    height: 100px;
+    width: 350px;
+    margin-top: -5.5%;
+}
+
+.get-a-job {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding-top: 30%;
+    padding-right: 9%;
+    align-items: flex-end;
+    font-size: 30px;
+    color: darkorange;
+}
+
+#apply-job-button {
+    position: relative;
+    height: 100px;
+    width: 300px;
+}
+
+#see-vacations-button {
+    position: relative;
+    height: 100px;
+    width: 300px;
+}
+
+.get-a-job-buttons {
+    display: flex;
+    gap: 3%;
+}

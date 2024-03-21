@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles/styles.css">
     <title>BopperBurgers</title>
 
+    <script src="scripts/menuPageButton.js"></script>
 </head>
 
 <body>
@@ -23,16 +24,25 @@
             
             <img  class="burger" src="styles/pictures/burger.png" alt="burger">
             <section class="make-order">
-                <p>You want to make an order? Then make it!</p>
-                <button class="order-buttons" id="order-button">
+                <p>You want to make an order? Then do it!</p>
+                <button class="main-buttons" id="order-button" onclick="">
                     Go to menu page
                 </button>
-                <button class="order-buttons" id="special-offers-button">
+                <button class="main-buttons" id="special-offers-button" onclick="">
                     Show special offers
                 </button>
+                <p>If you want to be the first to know about special offers:</p>
+                <input type="email" name="" class="email-type-input" id="special-offers-email">
+                <button class="main-buttons" id="subscribe-button">Subscribe to newsletter</button>
             </section>
         </section>
-
+        <section class="get-a-job">
+            <p>Hi! Wanna get a job? You can join our team!</p>
+            <section class="get-a-job-buttons">
+                <button class="main-buttons" id="apply-job-button" onclick="">Apply for a job</button>
+                <button class="main-buttons" id="see-vacations-button" onclick="">See vacations</button>
+            </section>
+        </section>
     </main>
 </body>
 </html>
